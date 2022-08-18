@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/estilo.css" rel="stylesheet">
+    </head>
+
+    <body>
+    <div id="centrado">
+        <h1>Alta de Usuario</h1>
+    
+    <form action="#" method="post">
+        <fieldset> <!-- etiqueta del listado de codigo de un formulario -->
+            <legend><b>Formulario de Ingreso</b></legend>
+            
+            <label for="nombre">Nombre:</label>
+            <input type="text" id="nombre" name="nombre" required maxlength="5" minlength="2" placeholder="nombre de usuario"> <!-- required es para colocar un input obligatorio, maxlength cantida max de carateres, minlength cantida minima-->
+            <br>
+            <br>
+
+            <label for="apellido">Apellido:</label>
+            <input type="text" id="apellido" name="apellido" required maxlength="5" minlength="2" placeholder="apellido de usuario">
+            <br>
+            <br>
+
+            <label for="pass">Password:</label>
+            <input type="password" id="pass" name="pass" pattern="">
+            <br>
+            <br>
+
+            <label for="edad">Edad:</label>
+            <input type="number" name="edad" max="99" min="18" required value="25" readonly=""><!-- value es la etiqueta para darle valor a mi campo,readonly es para poner el campo solo lectura -->
+            <br>
+            <br>
+
+            <label for="sueldo">Sueldo</label>
+            <input type="number" max="99999" name="sueldo" mix="25" value="2585" disabled=""><!-- disabled este dato no lo envia al servidor -->
+            <br>
+            <br>
+
+            <label for="Fnac">FNac:</label>
+            <input type="date" required name="Fnac" id="Fnac">
+        
+        </fieldset>
+
+        <fieldset>
+            <legend><b>Otros Datos</b></legend>
+                <label for="">Provicias:</label>
+                <select name="" id="">
+                    <option selected disabled>-select-</option>
+                    <option value="1">Buenos Aires</option>
+                    <option value="2">Cordaba</option>
+                    <option value="3">Santa Fe</option>
+                </select>
+                <br>
+                <br>
+
+                <label for="">Mascota:</label>
+                <select name="" id="" multiple>
+                    <optgroup label="4 patas">
+                        <option>Perro</option>
+                        <option>Gato</option>
+                        <option>Conejo</option>
+                    </optgroup>
+                    optgroup label="2 patas">
+                        <option>loro</option>
+                        <option>gallo</option>
+                    </optgroup>
+                </select>
+        </fieldset>
+        <br>
+        <br>
+        <label for="">Color:</label>
+        <input type="color">
+        <br>
+        <br>
+        <fieldset>
+            <legend>Lenguaje</legend>
+            <label for="">PHP</label>
+            <input type="checkbox" id="" name="" value="1">
+            <label for="">JAVA</label>
+            <input type="checkbox" id="" name="" value="2">
+            <label for="">PYTHON</label>
+            <input type="checkbox" id="" name="" value="3">
+        </fieldset>
+        <br>
+        <br>
+        <fieldset>
+            <legend>Otros Lenguajes</legend>
+            <label for="">Ruby</label>
+            <input type="radio" name="lp">
+            <label for="">JavaScrit</label>
+            <input type="radio" name="lp">
+            <label for="">.Net</label>
+            <input type="radio" name="lp">
+        </fieldset>
+        <br>
+        <br>
+
+        <button type="submit" class="button">Enviar</button>
+        <input type="reset" class="button">
+    </form>
+    </div>
+    </body>
+</html>
