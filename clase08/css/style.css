@@ -1,0 +1,92 @@
+* /*el asterico aplica para todo universal*/
+{
+    margin:0;
+    padding:0;
+}
+/*
+div
+{
+    background-color:red;
+    height:200px;
+    width: 100%;
+}
+
+#uno
+{
+    background-color: blue;
+}
+
+#dos
+{
+    background-color: blueviolet;
+}
+
+/*#tres
+{
+    background-color: coral;
+}
+
+#tres:hover
+{
+    background-color: lightcoral;
+    font-size: 24px;
+}
+
+/*p:hover
+{
+    background-color:green;
+}}
+
+/* div p
+{
+    color:yellow;
+}
+
+#tres p
+{
+    color: maroon;
+}
+
+section ~ p  ~  este selector va actuar para las eqtiquetas p que esten despues de section.
+{
+    color:blue;
+}
+
+
+div > p{ /*selector de hijo*/ /*
+    color: yellow;
+}
+
+section >p 
+{
+    color: white;
+}
+
+*/
+p:first-child
+{
+    color:blue;
+}
+
+a:link
+{
+    color:red;
+    text-decoration:none; /* para quitar el subrayado al link*/
+    font-size: 20px;
+}
+
+a:hover
+{
+    color: green;
+}
+
+a:visited
+{
+    color: yellow;
+}
+
+a:active
+{
+    color: blueviolet;
+}
+
