@@ -1,0 +1,52 @@
+* /*el asterico aplica para todo universal*/
+{
+    margin:0;
+    padding:0;
+}
+
+header,main
+{
+    background-color:lightgray;
+    width:80%;
+    height:150%;
+    margin:auto;
+    margin-top: 10px;
+    border-radius: 15px;
+    box-shadow: 10px 10px 10px #999; 
+}
+
+header h1
+{
+text-align: center;
+font-family: monospace;
+color: blue;
+text-shadow: 10px 10px 10px #063386;
+
+}
+
+#main
+{
+    height: 300px;
+    margin-top: 20px;
+}
+
+.fondo
+{
+    background-color: red !important; /* ! important par aindicarle que esto es importarte y debe tomar esto sin importar la jeraquia*/    ;
+    width:80%;
+    height:150%;
+    margin:auto;
+    margin-top: 10px;
+}
+
+.textos
+{
+    color: wheat;
+    font-family: 'Courier New', Courier, monospace;
+    font-size:15;
+}
+
+#footer
+{
+    background-color: blue;
+}
