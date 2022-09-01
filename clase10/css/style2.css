@@ -1,0 +1,35 @@
+
+#cuadro01
+{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    padding-top: 10px;
+}
+
+#cuadro02
+{
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    border: 20px;
+    border-color: green;
+    border-style: solid;
+}
+
+#cuadro04
+{
+    box-sizing: border-box; /* tanto el padin como borde pasen a fomrar parte de la cajaa*/
+    height: 250px;
+    width: 250px;
+    background-color: red;
+    border: 20px;
+    border-color: green;
+    border-style: solid;
+    padding-top: 10px;
+}
+
+p{
+    font-family:'Courier New', Courier, monospace;
+    font: size 20px;
+}

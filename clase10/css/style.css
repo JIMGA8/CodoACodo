@@ -1,0 +1,20 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+div
+{
+    background-color:red;
+    width:300px;
+    height: 300px;
+    border: 15px solid green;
+    padding: 50px; /*cantindad de espacio que hay con el el borde superior*/
+    margin: 20px;
+}
+
+p{
+    font-family:'Courier New', Courier, monospace;
+    font: size 20px;
+}
