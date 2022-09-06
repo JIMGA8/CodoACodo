@@ -1,0 +1,44 @@
+*
+{
+    margin: 0px;
+    padding: 0px;
+}
+
+.flex-content{
+    display: flex;
+    background-color: grey;
+    margin: auto;
+    margin-top: 30px;
+    width: 70%;
+    height: 200px;
+    justify-content: center; /* centra los elemento dentro del contendor */
+    justify-content: flex-end; /* coloca los elementos al final del contendor */
+    justify-content:start;/* coloca los elementos al inicio del contendor */
+    justify-content:space-between; /* separaro los elemento pero el primero y ultimo los pega al inico y al final del contenedor */
+    justify-content:space-around; /* separaro los elemento pero el primero y ultimo le da un margen del contendor al principio y al final, esecir no queda pegados */
+    align-items: center;
+    align-items: flex-start ;
+    align-items: flex-end;
+
+}   
+
+.flex-content>div
+{
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    color:white;
+    text-align: center;
+    font-size: 14px;
+}
+
+#tres, #siete{
+    background-color: blue;
+    color: red;
+    align-self: center;
+}
+
+#dos
+{
+    background-image: linear-gradient(blue red);
+}
