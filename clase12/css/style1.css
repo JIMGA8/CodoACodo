@@ -1,0 +1,34 @@
+.principal
+{
+    width: 100px;
+    height: 100px;
+    background-color: red;
+    animation: kprincipal;
+    animation-duration: 12s;
+    animation-delay: 4s;
+}
+
+.secundario
+{
+    width: 100px;
+    height: 100px;
+    background-color: yellow;
+    animation: ksecundario;
+    animation-duration: 12s;
+    animation-delay: 4s;
+}
+
+@keyframes kprincipal {
+    from{ background-color: red;}
+    to{ background-color:yellow}
+}
+
+@keyframes ksecundario {
+   /* from{ background-color: yellow;}
+    to{ background-color:red;} */
+
+    0%{ background-color: yellow;}
+    25%{ background-color: green;}
+    50%{ background-color: lightpink;}
+    75%{ background-color: lightseagreen;}
+}
