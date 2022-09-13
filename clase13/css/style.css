@@ -1,0 +1,19 @@
+*
+{
+    margin: 0;
+    padding: 0
+}
+
+#contenedor
+{
+    width:70%;
+    height: 700px;
+    background-color: red;
+    margin:auto
+}
+
+#nav1
+{
+    background-color:rgba(0,0,0.2)!important
+}
+
