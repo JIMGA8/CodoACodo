@@ -1,0 +1,13 @@
+*
+{
+    margin: 0;
+    padding: 0
+}
+div{
+    background-color:gray;
+    border:1px solid black;
+}
+
+.btn-success{
+    color:red !important
+}
