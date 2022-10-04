@@ -1,0 +1,144 @@
+*{
+    margin: 0;
+    padding: 0
+}
+.navbar, .honolulu{
+    background-color:rgb(59, 59, 59);
+}
+
+#comparTickets{
+    color:#25a342;
+}
+
+.carousel-item {
+    filter: brightness(50%);
+}
+
+#serOrador{
+    color:white;
+    border-color: white;
+}
+
+#Tickets{
+    color:white;
+    background-color:#25a342;
+}
+.parafo{
+    left: 51%;
+    padding: 0;
+    position: absolute;
+    top: 44%;
+    width: 510px;
+    color:white;
+    text-align: right;
+    margin:0;
+    font-size: 16px;
+}
+
+.oradores2{
+    text-align:center;
+    margin: 0;
+    width: 100%;
+}
+
+.oradores{
+    display: flex;
+    width: 70%;
+    margin:auto;
+    justify-content:space-around;
+    object-fit: contain;
+}
+
+.tarjeta{
+    width: 320px;
+    background-color: white;
+    border-radius:  10px 10px 0px 0px;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+    object-fit: contain;
+    margin-left: 20px;
+    box-shadow: 0px 0px 8px rgba(170, 170, 170, 1);
+}
+
+.textoTajeta{
+    margin: 10px;
+    padding: 10px;
+    margin-bottom: 0;
+}
+
+#negocio{
+    background-color:gray !important;
+    border-color: gray !important;
+}
+
+.btn-warning, .btn-danger, .btn-primary{
+    padding: 0 !important;
+    font-size: 14px !important;
+    padding-left: 5px !important;
+    padding-right: 5px !important;
+}
+
+.btn-primary{
+    background-color:rgb(0, 174, 255) !important;
+    border-color:rgb(0, 174, 255) !important;
+}
+
+.honolulu, .img_honolulu{
+    color: white;
+    font-size: 13px;
+    border-left:2px solid rgb(145, 145, 145);
+}
+
+.honolulu{
+    padding: 12px !important;
+}
+.row {
+    --bs-gutter-x: 1,5 !important;
+    border:2px solid rgb(145, 145, 145);
+}
+
+.formulario{
+    width: 50%;
+    margin: auto;
+}
+
+.container2{
+    display: flex;
+    justify-content:space-between;
+}
+.container2 > input{
+    width: 48%;
+}
+
+#titulo{
+    font-size: 12px !important;
+}
+#hablar{
+    width:100% !important;
+    font-size: 20px !important;
+}
+#enviar{
+    background-color: #44e74c;
+    margin-top: 10px;
+    font-size: 20px;
+    width: 100%;
+}
+.footer {
+    background-color:rgb(20, 55, 59);
+}
+.justify-content-center {
+    background-color:rgb(20, 55, 59);
+    color:white;
+}
+.navbar-nav .nav-link.active, .navbar-nav .show>.nav-link {
+    color: white !important;
+}
+.tamaño{
+    width: 110px;
+    text-align: center !important;
+    margin-right:15px !important;
+    margin-left: 15px !important;
+    align-items: center !important;
+    justify-content: center !important;
+    display: flex !important;
+}
