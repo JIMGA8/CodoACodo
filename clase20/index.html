@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+    </head>
+    <body>
+
+        <script>
+            var nombre=["nico","july","damian","jim"]
+
+            //metodo toString()
+            console.log("Metodo ToString")
+            var cadena=nombre.toString();
+            console.log(cadena)
+            console.log(nombre)
+            console.log("---------")
+
+            //metodo Push()
+            console.log("Metodo push")
+            nombre.push("pedro")
+            nombre.push("juan")
+
+            for(i=0; i<nombre.length;i++){
+                console.log("nombre ["+[i]+"] -->"+ nombre[i])
+            }
+            console.log("---------")
+
+            //metodo Pop()
+            console.log("Metodo pop")
+            nombre.pop()
+            for(i=0; i<nombre.length; i++){
+                console.log("nombre ["+[i]+"] -->"+ nombre[i])
+            }
+            console.log("---------")
+
+            //metodo join()
+            console.log("Metodo join")
+            texto=nombre.join("-*-")
+            console.log("texto con metodo Join: "+texto)
+            console.log("---------")
+
+            //metodo concat()
+            console.log("Metodo concat")
+            var numerosPares=[0,2,4,6,8,10]
+            var numerosImpares=[1,3,5,7,9,11]
+            numeros=numerosPares.concat(numerosImpares)
+            console.log("metodo Concat "+numeros)
+            console.log("---------")
+
+            var nombre="Jim Gavidia"
+            console.log(nombre)
+            console.log("cantidad de caracteres: "+nombre.length)
+            var x=0
+            for(i=0; i<nombre.length; i++){ 
+                console.log("Letra :["+i+"] "+nombre[i])
+                if(nombre[i]==" "){
+                    x++;
+                }
+            }
+            console.log("cantidad de Letras: "+(nombre.length-x))
+        </script>
+    
+    </body>
+</html>
