@@ -7,8 +7,6 @@ valor2=document.getElementById("valor2").value;
 var select= document.getElementById("ope");
 var select_activa=select.options[select.selectedIndex].value;
 
-result=0;
-
 
 switch(select_activa=parseInt(select_activa))
 {
@@ -22,8 +20,15 @@ switch(select_activa=parseInt(select_activa))
            result=(valor1*valor2);
            break;
     case 4:
-           result=(valor1/valor2);
-           break;
+       if(valor2==0){
+              alert("no se puede dividir por cero")
+              break;
+       }
+       else{
+              result=(valor1/valor2);
+              break;
+       }
+           
 }
 document.getElementById("valor3").value=result;
 }
