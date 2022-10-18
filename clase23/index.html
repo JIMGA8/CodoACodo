@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title></title>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <link href="css/style.css" rel="stylesheet">
+    </head>
+    <body>
+
+        <div id="claseDiv" class="original">
+            Cambiar Class css
+        </div>
+
+        <button onClick="cambiar();"> Cambiar Clase</button>
+        <button onClick="volver();">Volver a la otra clase</button>
+        
+        <script>
+            function cambiar(){
+                var aux=document.getElementById("claseDiv");
+                aux.classList.add("nueva");
+            }
+            function volver(){
+                var aux=document.getElementById("claseDiv");
+                aux.classList.add("original");
+            }
+        </script>
+    </body>
+</html>
